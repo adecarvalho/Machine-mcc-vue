@@ -107,7 +107,6 @@ export default new Vuex.Store({
 			const kphi_n = (uan - ra * ian) / omega_n
 
 			const kphi = (kphi_n * ie) / ien
-			console.log(`kphi = ${kphi}`)
 
 			const num = ua * f + (c0 + cr) * kphi
 			const den = ra * f + kphi * kphi
